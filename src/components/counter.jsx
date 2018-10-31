@@ -4,11 +4,10 @@ class Counter extends Component {
   state = {
     count: 1
   };
-  // instead for using constructor we can use arrow func
+  // instead for using constructor we can use arrow func to define this
   // constructor() {
   //   super();
   //   this.handleIncrement = this.handleIncrement.bind(this);
-  // }
 
   handleIncrement = () => {
     this.setState({ count: this.state.count + 1 });
